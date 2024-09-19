@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    background-color: #1E1E1E;
+    color: #C0C0C0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333333;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link {
+    color: #C0C0C0 !important;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #6EB36E !important;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero h5 {
+    color: #A9A9A9;
+    margin-bottom: 40px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #2B2B2B;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+    border-bottom: 2px solid #6EB36E;
+}
+
+.card-title {
+    color: #6EB36E;
+}
+
+.card-text {
+    color: #FFFFFF;
+}
+
+.btn-outline-light {
+    color: #6EB36E;
+    border-color: #6EB36E;
+}
+
+.btn-outline-light:hover {
+    background-color: #6EB36E;
+    color: #FFFFFF;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2B2B2B;
+    color: #808080;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h5 {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
